@@ -56,6 +56,7 @@ const Countries = () => {
                             </div>
                             <div>
                                 <select
+                                    name='filter-select'
                                     className='px-2 py-2 outline-none border rounded-sm bg-white shadow-sm dark:bg-darkBlue dark:border-darkGrey dark:text-darkGrey'
                                     onChange={(e) => { setFilter(e.target.value) }}
                                 >
